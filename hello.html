@@ -6,6 +6,14 @@
   <link href="hello.css" rel="stylesheet" ></link>
 </head>
 <body>
-  <h1 class="green header" id="hello">Hello, world</h1>
+  <h1 class="green header" id="hello"></h1>
+  <script type="text/javascript">
+
+  var answer = confirm("Do you want to say hello?");
+  if (answer == true)
+  {
+    document.getElementById('hello').innerHTML="Hello, world";
+  }
+  </script>
 </body>
 </html>
